@@ -5,6 +5,8 @@ Answers to exercises from *Structure and Interpretation of Computer Programs* an
 
 ### Configuration
 
+*The following has only been tested on Windows 10.*
+
 Racket and DrRacket can be downloaded [here](http://racket-lang.org/).
 
 To properly configure DrRacket for *SICP* and the additional functionality used in CS 61A, install the packages `sicp` and `berkeley` in the package manager. Then start every file with the following lines:
