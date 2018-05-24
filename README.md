@@ -9,9 +9,12 @@ Answers to exercises from *Structure and Interpretation of Computer Programs* an
 
 Racket and DrRacket can be downloaded [here](http://racket-lang.org/).
 
-To properly configure DrRacket for *SICP* and the additional functionality used in CS 61A, install the packages `sicp` and `berkeley` in the package manager. Then start every file with the following lines:
+To properly configure DrRacket for *SICP* and the additional functionality used in CS 61A, install the packages `sicp` and `berkeley` in the package manager. For exercises from the book that do not rely on Berkeley Scheme, start each file with:
 
     #lang sicp
+
+Also add the following to utilise the additional functionality:
+
     (#%require berkeley)
 
 
